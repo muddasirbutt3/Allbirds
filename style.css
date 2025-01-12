@@ -1,0 +1,525 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+/* +++++++++++++++++++++++++++++++ nav section ++++++++++++++++++++++++++++++++ */
+.nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+.links1,.links2{
+    display: flex;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.links1 li:hover,.links2 li:hover{
+    text-decoration: underline;
+}
+.links1{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    align-items: center;
+}
+.links1 li:last-child{
+    color: #AD1F00;
+}
+.links2{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+.links2 i{
+    font-size: 20px;
+}
+li{
+    list-style-type: none;
+}
+/* +++++++++++++++++++++++++++++++ sec 1 section ++++++++++++++++++++++++++++++++ */
+.sec_1{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e4e4e4;
+}
+.links3{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links3 li:hover{
+    border-bottom: 1px solid black;
+}
+/* +++++++++++++++++++++++++++++++ Slider 1 section ++++++++++++++++++++++++++++++++ */
+.slider1{
+    width: 100%;
+    /* height: 50vh; */
+    background-color: #32ac0d;
+}
+.slide1{
+    width: 100%;
+    height: 80vh;
+    background-color: #134e49;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.slide11{
+    background-image: url(media/baner_1.png);
+}
+.slide12{
+    background-image: url(media/baner_2.png);
+    display: flex;
+    justify-content: end;
+}
+.slide13{
+    background-image: url(media/baner_3.png);
+}
+.textes{
+    width: 50%;
+    height: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.textes1{
+    width: 50%;
+    height: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    text-align: end;
+}
+.text5{
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.text6{
+    color: white;
+    font-size: 18px;
+}
+
+.btns3 button {
+    width: 170px;
+    height: 40px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+.btns3 button:hover {
+    background-color: #000000;
+    color: white;
+}
+.text4 h2{
+    font-size: 72px;
+    color: white;
+}
+.text5 h2{
+    font-size: 72px;
+    color: white;
+}
+.text4 p{
+    width: 60%;
+    font-size: 18px;
+    color: white;
+    
+}
+.text5 p{
+    width: 60%;
+    font-size: 18px;
+    color: white;
+    
+}
+/* +++++++++++++++++++++++++++++++ cate section ++++++++++++++++++++++++++++++++ */
+.cate{
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.card1{
+    width: 33%;
+    height: 550px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #1e6928;
+    transition: background-size .5s;
+}
+.card1:hover{
+    background-size: 110%;
+}
+.card1:hover .btns2{
+    opacity: 1;
+}
+.text3{
+    color: white;
+    text-align: center;
+
+}
+.btns2 button{
+    width: 170px;
+    height: 40px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+.btns2 button:hover{
+    background-color: black;
+    color: white;
+}
+.btns2{
+    opacity: 0;
+}
+.card11{
+    background-image: url(media/pic1.png);
+}
+.card12{
+    background-image: url(media/pic2.png);
+}
+.card13{
+    background-image: url(media/pic3.png);
+}
+/* +++++++++++++++++++++++++++++++ middle section ++++++++++++++++++++++++++++++++ */
+.middle{
+    width: 100%;
+    height: 250px;
+    background-color: #36aab9;
+    background-image: url(media/middle.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.seasons{
+    width: 100%;
+    background-color: #1a8492;
+}
+/* +++++++++++++++++++++++++++++++ Season 1 section ++++++++++++++++++++++++++++++++ */
+.sea1{
+    width: 100%;
+    background-color: #1d8b26;
+
+}
+.cards3{
+    /* display: flex; */
+    /* overflow-x: scroll; */
+    padding: 20px;
+    /* gap: 0px 10px; */
+    background-color: #1d8b26;
+}
+.title1{
+    display: flex;
+    background-color: #1b6977;
+}
+.card3{
+    width: 500px ;
+    height: 500px;
+    display: inline-block;
+    background-color: #867827;
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    font-size: 24px;
+    color: white;
+}
+
+/* +++++++++++++++++++++++++++++++ Season 2 section ++++++++++++++++++++++++++++++++ */
+
+.sea2{
+    width: 100%;
+    background-color: #1d8b26;
+    display: flex;
+    padding: 20px;
+}
+.img1{
+    width: 50%;
+    height: 700px;
+    background-image: url(media/pic4_1.png);
+    background-size: 100%;
+    background-position: center;
+    transition: background-size .5s ease;
+    /* background-repeat: no-repeat; */
+}
+.img1:hover{
+    background-size: 110%;
+}
+.imges2{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* gap: 10px; */
+    padding: 20px;
+    background-color: #2e8d99;
+}
+.card4{
+    width: 50%;
+    height: 50%;
+    margin: 0px;
+    background-color: #0f2057;
+
+}
+/* +++++++++++++++++++++++++++++++ Season 3 section ++++++++++++++++++++++++++++++++ */
+.sea3 {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+
+.card5 {
+    width: 50%;
+    height: 100%;
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-size: 100%;
+    background-position: center;
+    transition: background-size 0.5s ease;
+}
+
+.card5:hover {
+    background-size: 110%;
+}
+
+.text2 {
+    color: white;
+}
+
+.btns1 {
+    opacity: 0;
+}
+
+.card5:hover .btns1 {
+    opacity: 1;
+}
+
+.btns1 button {
+    width: 170px;
+    height: 40px;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.btns1 button:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.card51 {
+    background-image: url('media/pic5_1.png');
+}
+
+.card52 {
+    background-image: url('media/pic5_2.png');
+}
+
+
+
+/* +++++++++++++++++++++++++++++++ Subs section ++++++++++++++++++++++++++++++++ */
+.subs{
+    width: 100%;
+    height: 350px;
+    padding: 20px;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.subs h1{
+    font-size: 38px;
+}
+.subs p{
+    width: 45%;
+    font-size: 14px;
+    text-align: center;
+}
+.input{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    /* margin-top: 20px; */
+}
+.input input{
+    width: 80%;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    font-size: 18px;
+    transition: outline 0.3s;
+}
+.input input:focus{
+    outline: 2px solid black;
+}
+
+.input button{
+    width: 20%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+p span{
+    font-weight: bold;
+    text-decoration: underline;
+}
+/* +++++++++++++++++++++++++++++++ plans section ++++++++++++++++++++++++++++++++ */
+.plans{
+    width: 100%;
+    padding: 30px;
+}
+.cards6{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.card6{
+    width: 30%;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    color: black;
+}
+.title2{
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+}
+.card6 h2{
+    font-size: 24px;
+    font-weight: bold;
+}
+/* +++++++++++++++++++++++++++++++ footer 1 section ++++++++++++++++++++++++++++++++ */
+.footer1{
+    width: 100%;
+    background-color: #212121;
+    text-decoration: none;
+    display: flex;
+    color: white;
+    padding: 40px 20px;
+    font-size: 14px;
+}
+.footer1 li{
+    margin: 3px 10px;
+    cursor: pointer;
+}
+.group1{
+    width: 25%;
+}
+.group2{
+    width: 25%;
+}
+.group3{
+    width: 50%;
+}
+/* +++++++++++++++++++++++++++++++ footer 2 section ++++++++++++++++++++++++++++++++ */
+.footer2{
+    width: 100%;
+    background-color: #212121;
+    display: flex;
+    padding: 40px 20px;
+    /* color: white;
+    font-size: 14px; */
+}
+.box{
+    width: 50%;
+    padding: 20px;
+    color: white;
+    display: flex;
+    font-size: 14px;
+}
+.testes2{
+    width: 50%;
+}
+.logo3{
+    width: 50%;
+}
+.plats{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+}
+.plats i{
+    cursor: pointer;
+}
+.flags{
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.flags img{
+    margin: 0px 5px;
+}
+/* +++++++++++++++++++++++++++++++ footer 2 section ++++++++++++++++++++++++++++++++ */
+.footer3{
+    width: 100%;
+    height: 200px;
+    background-color: #212121;
+    padding: 40px 20px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    
+}
+.footer3 p:last-child{
+    text-decoration: underline;
+
+}
